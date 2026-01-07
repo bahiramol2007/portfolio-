@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIQUE ACADEMY | 11th & 12th Coaching</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Page-specific styles */
+        .hero {
+            background: linear-gradient(135deg, rgb(26, 26, 47) 0%, rgb(15, 15, 35) 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 900px;
+        }
+
+        .academy-name {
+            font-size: 3.5rem;
+            font-weight: bold;
+            letter-spacing: 3px;
+            margin-bottom: 15px;
+            background: linear-gradient(90deg, #ffeb3b, #f66605);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            position: relative;
+            padding-bottom: 15px;
+        }
+
+        .academy-name::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 150px;
+            height: 4px;
+            background: linear-gradient(90deg, #f66605, #ffeb3b);
+            border-radius: 2px;
+        }
+
+        .tagline {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            color: #ffeb3b;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+
+        .classes {
+            font-size: 2rem;
+            margin: 30px 0;
+            padding: 15px 30px;
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            border-left: 4px solid #f66605;
+            border-right: 4px solid #f66605;
+            display: inline-block;
+        }
+
+        .features {
+            margin: 40px auto;
+            max-width: 800px;
+            font-size: 1.2rem;
+            line-height: 1.8;
+            text-align: left;
+            background-color: rgba(255, 255, 255, 0.05);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .feature-item {
+            margin-bottom: 15px;
+            padding-left: 10px;
+            border-left: 3px solid rgba(0, 255, 204, 0.5);
+            padding: 10px 0 10px 15px;
+            transition: all 0.3s ease;
+        }
+
+        .feature-item:hover {
+            background-color: rgba(0, 255, 204, 0.05);
+            border-left-color: #00ffcc;
+            transform: translateX(5px);
+        }
+
+        .feature-item span {
+            color: #00ffcc;
+            font-weight: bold;
+        }
+
+        .footer {
+            margin-top: 80px;
+            font-size: 1.2rem;
+            color: #dddddd;
+            padding: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            width: 100%;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .academy-name {
+                font-size: 2.5rem;
+                letter-spacing: 2px;
+            }
+            
+            .tagline {
+                font-size: 1.2rem;
+                margin-bottom: 20px;
+            }
+            
+            .classes {
+                font-size: 1.5rem;
+                padding: 12px 20px;
+                margin: 20px 0;
+            }
+            
+            .features {
+                padding: 20px;
+                font-size: 1.1rem;
+            }
+            
+            .footer {
+                font-size: 1rem;
+                margin-top: 60px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .academy-name {
+                font-size: 2rem;
+                letter-spacing: 1px;
+            }
+            
+            .academy-name::after {
+                width: 100px;
+            }
+            
+            .tagline {
+                font-size: 1rem;
+            }
+            
+            .classes {
+                font-size: 1.3rem;
+                padding: 10px 15px;
+            }
+            
+            .features {
+                padding: 15px;
+                font-size: 1rem;
+            }
+            
+            .feature-item {
+                padding: 8px 0 8px 10px;
+            }
+            
+            .footer {
+                font-size: 0.9rem;
+                margin-top: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-content container">
+            <div class="academy-name fade-in">UNIQUE ACADEMY</div>
+            <div class="tagline fade-in delay-1">Shaping Bright Futures</div>
+            
+            <div class="classes fade-in delay-2">
+                11<sup>th</sup> & 12<sup>th</sup> Coaching Classes
+            </div>
+
+            <div class="features fade-in delay-3">
+                <div class="feature-item">~ <span>Expert Faculty</span></div>
+                <div class="feature-item">~ <span>Concept-Based Teaching</span></div>
+                <div class="feature-item">~ <span>Regular Tests & Doubt Sessions</span></div>
+                <div class="feature-item">~ <span>Board & Competitive Exam Preparation</span></div>
+                <div class="feature-item">~ <span>Personal Attention to Every Student</span></div>
+            </div>
+
+            <div class="button fade-in delay-4">
+                <a href="course.html" class="btn">View Courses</a>
+            </div>
+
+            <div class="footer fade-in delay-5">
+                !! Quality Education | Discipline | Success !!
+            </div>
+        </div>
+    </section>
+</body>
+</html>

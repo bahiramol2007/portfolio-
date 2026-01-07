@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - UNIQUE ACADEMY</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Page-specific styles */
+        body {
+            background-color: #eef6f8;
+            padding-top: 20px;
+        }
+
+        .courses-container {
+            padding: 40px 0;
+        }
+
+        h2 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.2rem;
+        }
+
+        .course-section {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 50px;
+            padding: 30px;
+            overflow-x: auto;
+        }
+
+        .course-table {
+            border-collapse: collapse;
+            width: 100%;
+            min-width: 600px;
+            margin: 20px 0;
+        }
+
+        .course-table caption {
+            font-size: 1.5rem;
+            font-weight: bold;
+            padding: 15px;
+            color: #34495e;
+            background-color: #f8f9fa;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .course-table th, 
+        .course-table td {
+            border: 2px solid #2c3e50;
+            padding: 18px;
+            text-align: center;
+        }
+
+        .course-table th {
+            background-color: #4caf50;
+            color: white;
+            font-weight: bold;
+        }
+
+        .course-table .sub-head {
+            background-color: #81c784;
+            color: #ffffff;
+        }
+
+        .course-table tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        .course-table tr:hover {
+            background-color: #e3f2fd;
+            transform: scale(1.01);
+            transition: transform 0.2s ease;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .action-buttons {
+            text-align: center;
+            margin: 50px 0 30px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h2 {
+                font-size: 1.8rem;
+            }
+            
+            .course-section {
+                padding: 20px;
+                margin-bottom: 30px;
+            }
+            
+            .course-table th, 
+            .course-table td {
+                padding: 12px;
+                font-size: 0.9rem;
+            }
+            
+            .course-table caption {
+                font-size: 1.2rem;
+                padding: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h2 {
+                font-size: 1.5rem;
+                margin-bottom: 20px;
+            }
+            
+            .course-section {
+                padding: 15px;
+            }
+            
+            .course-table th, 
+            .course-table td {
+                padding: 8px;
+                font-size: 0.8rem;
+            }
+            
+            .course-table caption {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="courses-container container">
+        <h2 class="fade-in">JEE Preparation (11<sup>th</sup>)</h2>
+        
+        <div class="course-section fade-in delay-1">
+            <div class="table-container">
+                <table class="course-table">
+                    <caption>Subject Information Table</caption>
+                    <thead>
+                        <tr>
+                            <th rowspan="2">Subject Code</th>
+                            <th rowspan="2">Subject Name</th>
+                            <th colspan="2">Duration</th>
+                            <th rowspan="2">Fees (₹)</th>
+                        </tr>
+                        <tr class="sub-head">
+                            <th>Month</th>
+                            <th>Mode</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Math-1</td>
+                            <td>Mathematics</td>
+                            <td>9</td>
+                            <td>Online / Offline</td>
+                            <td>20000</td>
+                        </tr>
+                        <tr>
+                            <td>Chem-1</td>
+                            <td>Chemistry</td>
+                            <td>8</td>
+                            <td>Online / Offline</td>
+                            <td>18000</td>
+                        </tr>
+                        <tr>
+                            <td>Phy-1</td>
+                            <td>Physics</td>
+                            <td>9</td>
+                            <td>Online / Offline</td>
+                            <td>19000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <h2 class="fade-in delay-2">JEE Preparation (12<sup>th</sup>)</h2>
+        
+        <div class="course-section fade-in delay-3">
+            <div class="table-container">
+                <table class="course-table">
+                    <caption>Subject Information Table</caption>
+                    <thead>
+                        <tr>
+                            <th rowspan="2">Subject Code</th>
+                            <th rowspan="2">Subject Name</th>
+                            <th colspan="2">Duration</th>
+                            <th rowspan="2">Fees (₹)</th>
+                        </tr>
+                        <tr class="sub-head">
+                            <th>Month</th>
+                            <th>Mode</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Math-2</td>
+                            <td>Mathematics</td>
+                            <td>11</td>
+                            <td>Online / Offline</td>
+                            <td>25000</td>
+                        </tr>
+                        <tr>
+                            <td>Chem-2</td>
+                            <td>Chemistry</td>
+                            <td>10</td>
+                            <td>Online / Offline</td>
+                            <td>23000</td>
+                        </tr>
+                        <tr>
+                            <td>Phy-2</td>
+                            <td>Physics</td>
+                            <td>11</td>
+                            <td>Online / Offline</td>
+                            <td>24000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="action-buttons fade-in delay-4">
+            <a href="register.html" class="btn btn-secondary">Register Now</a>
+        </div>
+    </div>
+</body>
+</html>
