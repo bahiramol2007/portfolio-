@@ -1,0 +1,71 @@
+--theme-background-color: #1a1a2e;
+--theme-main-color: #e94560;
+--theme-sub-text-color: #ffffff;
+--theme-nav-background-color: #16213e;
+--theme-button-hover-color: #0f3460;
+--theme-border-color: #1f4068;
+--theme-error-color: #E53935;
+
+
+--theme-background-color: #1B1A17; /* Deep charcoal */
+--theme-main-color: #A35709; /* Warm amber/orange */
+--theme-sub-text-color: #F0E3CA; /* Soft off-white */
+--theme-nav-background-color: #242320; /* Slightly lighter than background */
+--theme-button-hover-color: #FF8303; /* Bright orange accent */
+--theme-border-color: #39311D; /* Dark brown-gray */
+--theme-error-color: #CC2936; /* Deep red */
+
+
+--theme-background-color: #0F1B30; /* Deep navy blue */
+--theme-main-color: #4FC3F7; /* Bright cyan */
+--theme-sub-text-color: #E3F2FD; /* Very light blue */
+--theme-nav-background-color: #1A237E; /* Royal blue */
+--theme-button-hover-color: #29B6F6; /* Medium cyan */
+--theme-border-color: #283593; /* Indigo blue */
+--theme-error-color: #F44336; /* Material red */
+
+
+--theme-background-color: #0D1B1E; /* Very dark green/black */
+--theme-main-color: #4CAF50; /* Vibrant green */
+--theme-sub-text-color: #E8F5E9; /* Light mint green */
+--theme-nav-background-color: #1B3225; /* Dark forest green */
+--theme-button-hover-color: #388E3C; /* Deep green */
+--theme-border-color: #2E4C3C; /* Medium-dark green */
+--theme-error-color: #F44336; /* Material red */
+
+
+--theme-background-color: #1A1A2E; /* Keep or change to #121212 */
+--theme-main-color: #BB86FC; /* Material purple */
+--theme-sub-text-color: #FFFFFF; /* Keep white */
+--theme-nav-background-color: #1F1B24; /* Dark purple-gray */
+--theme-button-hover-color: #985EFF; /* Bright purple */
+--theme-border-color: #332940; /* Medium purple-gray */
+--theme-error-color: #CF6679; /* Pinkish error color */
+
+
+--theme-background-color: #2D2424; /* Dark reddish-brown */
+--theme-main-color: #E6B325; /* Golden yellow */
+--theme-sub-text-color: #F7F3E3; /* Warm cream */
+--theme-nav-background-color: #3D2C2C; /* Medium brown */
+--theme-button-hover-color: #D4AC0D; /* Darker gold */
+--theme-border-color: #5C4B4B; /* Warm gray-brown */
+--theme-error-color: #E74C3C; /* Coral red */
+
+
+--theme-background-color: #121212; /* True black */
+--theme-main-color: #FF6B35; /* High visibility orange */
+--theme-sub-text-color: #FFFFFF; /* Pure white */
+--theme-nav-background-color: #1E1E1E; /* Near black */
+--theme-button-hover-color: #FF8B4D; /* Lighter orange */
+--theme-border-color: #404040; /* Medium gray */
+--theme-error-color: #FF3B30; /* Bright red */
+
+
+
+--theme-background-color: #2D3047; /* Dark slate blue */
+--theme-main-color: #FF9A8B; /* Soft coral */
+--theme-sub-text-color: #E8EBF7; /* Light lavender-gray */
+--theme-nav-background-color: #3A3E5C; /* Medium slate */
+--theme-button-hover-color: #FF7B6B; /* Brighter coral */
+--theme-border-color: #4A4E7A; /* Blue-gray */
+--theme-error-color: #FF6B6B; /* Soft red */

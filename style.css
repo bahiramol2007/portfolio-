@@ -1,12 +1,21 @@
 /* Color Variables */
 :root {
-    --theme-background-color: #1a1a2e;
+    /* --theme-background-color: #1a1a2e;
     --theme-main-color: #e94560;
     --theme-sub-text-color: #ffffff;
     --theme-nav-background-color: #16213e;
     --theme-button-hover-color: #0f3460;
     --theme-border-color: #1f4068;
-    --theme-error-color: #E53935;
+    --theme-error-color: #E53935; */
+
+
+--theme-background-color: #1B1A17; 
+--theme-main-color: #A35709; 
+--theme-sub-text-color: #F0E3CA; 
+--theme-nav-background-color: #242320; 
+--theme-button-hover-color: #FF8303; 
+--theme-border-color: #39311D; 
+--theme-error-color: #CC2936; 
 }
 
 /* Reset and Base Styles */
