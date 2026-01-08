@@ -1,21 +1,69 @@
 /* Color Variables */
 :root {
-    /* --theme-background-color: #1a1a2e;
+    --theme-background-color: #1a1a2e;
     --theme-main-color: #e94560;
     --theme-sub-text-color: #ffffff;
     --theme-nav-background-color: #16213e;
     --theme-button-hover-color: #0f3460;
     --theme-border-color: #1f4068;
-    --theme-error-color: #E53935; */
+    --theme-error-color: #E53935;
 
 
---theme-background-color: #1B1A17; 
---theme-main-color: #A35709; 
---theme-sub-text-color: #F0E3CA; 
---theme-nav-background-color: #242320; 
---theme-button-hover-color: #FF8303; 
---theme-border-color: #39311D; 
---theme-error-color: #CC2936; 
+    /* --theme-background-color: #1B1A17; 
+    --theme-main-color: #A35709; 
+    --theme-sub-text-color: #F0E3CA; 
+    --theme-nav-background-color: #242320; 
+    --theme-button-hover-color: #FF8303; 
+    --theme-border-color: #39311D; 
+    --theme-error-color: #CC2936;  */
+
+    /* --theme-background-color: #0F1B30; 
+    --theme-main-color: #4FC3F7; 
+    --theme-sub-text-color: #E3F2FD; 
+    --theme-nav-background-color: #1A237E; 
+    --theme-button-hover-color: #29B6F6; 
+    --theme-border-color: #283593; 
+    --theme-error-color: #F44336;  */
+
+    /* --theme-background-color: #0D1B1E; 
+    --theme-main-color: #4CAF50; 
+    --theme-sub-text-color: #E8F5E9; 
+    --theme-nav-background-color: #1B3225; 
+    --theme-button-hover-color: #388E3C; 
+    --theme-border-color: #2E4C3C; 
+    --theme-error-color: #F44336;  */
+
+    /* --theme-background-color: #1A1A2E; 
+    --theme-main-color: #BB86FC; 
+    --theme-sub-text-color: #FFFFFF; 
+    --theme-nav-background-color: #1F1B24; 
+    --theme-button-hover-color: #985EFF;
+    --theme-border-color: #332940; 
+    --theme-error-color: #CF6679;  */
+
+    /* --theme-background-color: #2D2424; 
+    --theme-main-color: #E6B325; 
+    --theme-sub-text-color: #F7F3E3; 
+    --theme-nav-background-color: #3D2C2C; 
+    --theme-button-hover-color: #D4AC0D; 
+    --theme-border-color: #5C4B4B; 
+    --theme-error-color: #E74C3C;  */
+
+    /* --theme-background-color: #121212; 
+    --theme-main-color: #FF6B35; 
+    --theme-sub-text-color: #FFFFFF; 
+    --theme-nav-background-color: #1E1E1E; 
+    --theme-button-hover-color: #FF8B4D; 
+    --theme-border-color: #404040; 
+    --theme-error-color: #FF3B30;  */
+
+    /* --theme-background-color: #2D3047; 
+    --theme-main-color: #FF9A8B; 
+    --theme-sub-text-color: #E8EBF7; 
+    --theme-nav-background-color: #3A3E5C; 
+    --theme-button-hover-color: #FF7B6B; 
+    --theme-border-color: #4A4E7A; 
+    --theme-error-color: #FF6B6B;  */
 }
 
 /* Reset and Base Styles */
